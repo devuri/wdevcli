@@ -27,7 +27,7 @@ Your site is now available at http://myblog.test
 ## Links
 
 - **Website**: [wdevcli.com](https://wdevcli.com)  
-- **Documentation**: [docs.wdevcli.com](https://docs.wdevcli.dev)
+- **Documentation**: [docs.wdevcli.com](https://docs.wdevcli.com)
 - **Issues**: [GitHub Issues](https://github.com/devuri/wdev-community/issues)
 
 
