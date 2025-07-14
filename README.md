@@ -30,6 +30,6 @@ Your site is now available at http://myblog.test
 - **Documentation**: [docs.wdevcli.com](https://docs.wdevcli.dev)
 - **Issues**: [GitHub Issues](https://github.com/devuri/wdev-community/issues)
 
----
 
-**Perfect staging environments for any WordPress project.**
+
+> **Local staging environments for any WordPress project.**
