@@ -32,4 +32,4 @@ Your site is now available at http://myblog.test
 
 ---
 
-**Perfect staging environments for any WordPress project.** 🚀
+**Perfect staging environments for any WordPress project.**
