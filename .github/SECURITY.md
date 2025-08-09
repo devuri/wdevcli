@@ -1,62 +1,78 @@
 # Security Policy
 
-PLEASE DO NOT DISCLOSE SECURITY-RELATED ISSUES PUBLICLY
+⚠ **PLEASE DO NOT DISCLOSE SECURITY-RELATED ISSUES PUBLICLY**
+
+
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.19.x  | ✅ Yes             |
-| 0.18.x  | ✅ Yes             |
-| < 0.18  | ❌ No              |
+| Version | Supported |
+| ------- | --------- |
+| 0.29.x  | ✅ Yes    |
+| < 0.29  | ❌ No     |
 
-**Current Version:** v0.19.2
+**Current Release:** **v0.29.3**
+
 
 ## Reporting Security Issues
 
-**Please do NOT create public GitHub issues for security vulnerabilities.**
+Do **not** create public GitHub issues for security vulnerabilities.
 
-Instead, email us privately at: **security@wdevcli.com**
+Instead, please email us privately: **[security@wdevcli.com](mailto:security@wdevcli.com)**
 
 ### Include in Your Report
-- WDev version number
-- Operating system
-- Steps to reproduce the issue
-- Description of the potential impact
 
-### Our Response
-We'll respond as soon as possible and keep you updated on progress.
+* WDev version number
+* Operating system (and Docker version if relevant)
+* Steps to reproduce the issue
+* Description of potential impact
 
-## Security Notes
-
-WDev is a **local development tool** designed for trusted environments:
-
-- Not intended for production use
-- Uses Docker isolation.
-- SSL certificates are for development only
-
-## Important Security Areas
-
-Please report issues related to:
-- Remote code execution
-- Container security problems
-- SSL/certificate handling
-- WDev Agent plugin vulnerabilities
-- Unauthorized file system access
-
-### Low-Priority / Won’t-Fix Examples
-- Issues requiring physical access to your dev machine
-- Theoretical attacks with no practical exploit path
-
-### Encryption
-Need to share sensitive proof-of-concept code? Ask for our PGP key in your initial email.
-
-## Contact
-
-- **Security issues:** security@wdevcli.com
-- **General questions:** [GitHub Issues](https://github.com/devuri/wdev-community/issues)
-- **Website:** [wdevcli.com](https://wdevcli.com)
+If the report contains sensitive proof-of-concept code, request our **PGP key** in your first email.
 
 ---
 
-**Last Updated:** July 2025
+## Our Response
+
+* We’ll acknowledge receipt as soon as possible.
+* We may request additional details, logs, or reproduction steps.
+
+---
+
+## Security Notes
+
+WDev is a **local development tool** designed for **trusted environments** only:
+
+* **Not** intended for production use
+* Relies on Docker container isolation
+* SSL certificates are development-only
+
+---
+
+## Important Security Areas
+
+Please report issues involving:
+
+* Remote code execution
+* Container escape or Docker security flaws
+* SSL / certificate handling problems
+* Vulnerabilities in the WDev Agent plugin
+* Unauthorized file system access
+
+---
+
+## Low-Priority / Won’t-Fix Examples
+
+* Issues requiring **physical access** to your development machine
+* Purely theoretical attacks with **no practical exploit path**
+
+---
+
+## Contact
+
+* **Security issues:** [security@wdevcli.com](mailto:security@wdevcli.com)
+* **General questions:** [GitHub Issues](https://github.com/devuri/wdev-community/issues)
+* **Website:** [wdevcli.com](https://wdevcli.com)
+
+---
+
+**Last Updated:** August 2025
