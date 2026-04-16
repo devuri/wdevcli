@@ -14,6 +14,7 @@ wdev remote push myblog     # deploy to a staging node
 ## Status
 
 > WDevCli is **alpha software**.
+> 
 > It works and is used daily by the team building it. You will encounter rough edges. Interfaces change between releases, including breaking changes at the major and minor version level.
 
 Feedback filed here directly shapes what gets fixed and prioritized.
