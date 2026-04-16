@@ -11,6 +11,12 @@ wdev host audit staging     # security triage of a remote Linux host
 wdev remote push myblog     # deploy to a staging node
 ```
 
+## Status
+
+> WDevCli is **alpha software**.
+> It works and is used daily by the team building it. You will encounter rough edges. Interfaces change between releases, including breaking changes at the major and minor version level.
+
+Feedback filed here directly shapes what gets fixed and prioritized.
 
 
 ## What WDevCli is
@@ -70,15 +76,6 @@ It is also useful for solo developers who want a local WordPress or PHP environm
 WDevCli is a premium product. Download it from [wdevcli.com](https://wdevcli.com), then follow the setup guide in the documentation.
 
 Full installation and setup documentation is at [docs.wdevcli.com](https://docs.wdevcli.com).
-
-
-
-## Status
-
-WDevCli is **alpha software**. It works and is used daily by the team building it. You will encounter rough edges. Interfaces change between releases, including breaking changes at the major and minor version level. The remote staging subsystem in particular is still stabilizing.
-
-Feedback filed here directly shapes what gets fixed and prioritized.
-
 
 
 ## This repository
